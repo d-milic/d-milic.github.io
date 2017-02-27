@@ -4,38 +4,38 @@ body {
   font-family: Quicksand, Helvetica, Arial, sans-serif;
   font-size: 36px;
   text-align: center;
-  -webkit-transition: all 250ms linear;
-  -moz-transition: all 250ms linear;
-  -o-transition: all 250ms linear;
-  -ms-transition: all 250ms linear;
-  transition: all 250ms linear;
+  -webkit-transition: all 250ms linear all;
+  -moz-transition: all 250ms linear all;
+  -o-transition: all 250ms linear all;
+  -ms-transition: all 250ms linear all;
+  transition: all 250ms linear all;
 }
 
 .upwork-bg {
   background-color: #5BBC2E;
-  -webkit-transition: all 250ms linear;
-  -moz-transition: all 250ms linear;
-  -o-transition: all 250ms linear;
-  -ms-transition: all 250ms linear;
-  transition: all 250ms linear;
+  -webkit-transition: all 250ms linear all;
+  -moz-transition: all 250ms linear all;
+  -o-transition: all 250ms linear all;
+  -ms-transition: all 250ms linear all;
+  transition: all 250ms linear all;
 }
 
 .github-bg {
   background-color: #24292E;
-  -webkit-transition: all 250ms linear;
-  -moz-transition: all 250ms linear;
-  -o-transition: all 250ms linear;
-  -ms-transition: all 250ms linear;
-  transition: all 250ms linear;
+  -webkit-transition: all 250ms linear all;
+  -moz-transition: all 250ms linear all;
+  -o-transition: all 250ms linear all;
+  -ms-transition: all 250ms linear all;
+  transition: all 250ms linear all;
 }
 
 .linkedin-bg {
   background-color: #0084BF;
-  -webkit-transition: all 250ms linear;
-  -moz-transition: all 250ms linear;
-  -o-transition: all 250ms linear;
-  -ms-transition: all 250ms linear;
-  transition: all 250ms linear;
+  -webkit-transition: all 250ms linear all;
+  -moz-transition: all 250ms linear all;
+  -o-transition: all 250ms linear all;
+  -ms-transition: all 250ms linear all;
+  transition: all 250ms linear all;
 }
 
 .content-container {
