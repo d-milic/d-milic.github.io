@@ -1,0 +1,39 @@
+body {
+  background-color: #00BFFF;
+  color: #FFFFFF;
+  font-family: Quicksand, Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+.upwork-bg {
+  background-color: #5BBC2E;
+}
+
+.github-bg {
+  background-color: #24292E;
+}
+
+.linkedin-bg {
+  background-color: #0084BF;
+}
+
+.content-container {
+  width: 600px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -125px;
+  text-align: center;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.link-container {
+  display: inline-block;
+  padding: 30px;
+}
