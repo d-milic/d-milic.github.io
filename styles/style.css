@@ -4,38 +4,38 @@ body {
   font-family: Quicksand, Helvetica, Arial, sans-serif;
   font-size: 36px;
   text-align: center;
-  -webkit-transition: all 250ms linear all;
-  -moz-transition: all 250ms linear all;
-  -o-transition: all 250ms linear all;
-  -ms-transition: all 250ms linear all;
-  transition: all 250ms linear all;
+  -webkit-transition: 250ms linear;
+  -moz-transition: 250ms linear;
+  -o-transition: 250ms linear;
+  -ms-transition: 250ms linear;
+  transition: 250ms linear;
 }
 
 .upwork-bg {
   background-color: #5BBC2E;
-  -webkit-transition: all 250ms linear all;
-  -moz-transition: all 250ms linear all;
-  -o-transition: all 250ms linear all;
-  -ms-transition: all 250ms linear all;
-  transition: all 250ms linear all;
+  -webkit-transition: 250ms linear;
+  -moz-transition: 250ms linear;
+  -o-transition: 250ms linear;
+  -ms-transition: 250ms linear;
+  transition: 250ms linear;
 }
 
 .github-bg {
   background-color: #24292E;
-  -webkit-transition: all 250ms linear all;
-  -moz-transition: all 250ms linear all;
-  -o-transition: all 250ms linear all;
-  -ms-transition: all 250ms linear all;
-  transition: all 250ms linear all;
+  -webkit-transition: 250ms linear;
+  -moz-transition: 250ms linear;
+  -o-transition: 250ms linear;
+  -ms-transition: 250ms linear;
+  transition: 250ms linear;
 }
 
 .linkedin-bg {
   background-color: #0084BF;
-  -webkit-transition: all 250ms linear all;
-  -moz-transition: all 250ms linear all;
-  -o-transition: all 250ms linear all;
-  -ms-transition: all 250ms linear all;
-  transition: all 250ms linear all;
+  -webkit-transition: 250ms linear;
+  -moz-transition: 250ms linear;
+  -o-transition: 250ms linear;
+  -ms-transition: 250ms linear;
+  transition: 250ms linear;
 }
 
 .content-container {
@@ -47,6 +47,58 @@ body {
   top: 50%;
   margin-top: -125px;
   text-align: center;
+}
+
+.first {
+  -webkit-animation-duration: 2s;
+	-webkit-animation-delay: 0.5s;
+  -moz-animation-duration: 2s;
+	-moz-animation-delay: 0.5s;
+  -o-animation-duration: 2s;
+	-o-animation-delay: 0.5s;
+  -ms-animation-duration: 2s;
+	-ms-animation-delay: 0.5s;
+  animation-duration: 2s;
+	animation-delay: 0.5s;
+}
+
+.second {
+  -webkit-animation-duration: 2s;
+	-webkit-animation-delay: 2.5s;
+  -moz-animation-duration: 2s;
+	-moz-animation-delay: 2.5s;
+  -o-animation-duration: 2s;
+	-o-animation-delay: 2.5s;
+  -ms-animation-duration: 2s;
+	-ms-animation-delay: 2.5s;
+  animation-duration: 2s;
+	animation-delay: 2.5s;
+}
+
+.third {
+  -webkit-animation-duration: 2s;
+	-webkit-animation-delay: 4.5s;
+  -moz-animation-duration: 2s;
+	-moz-animation-delay: 4.5s;
+  -o-animation-duration: 2s;
+	-o-animation-delay: 4.5s;
+  -ms-animation-duration: 2s;
+	-ms-animation-delay: 4.5s;
+  animation-duration: 2s;
+	animation-delay: 4.5s;
+}
+
+.links-container {
+  -webkit-animation-duration: 2s;
+	-webkit-animation-delay: 6.5s;
+  -moz-animation-duration: 2s;
+	-moz-animation-delay: 6.5s;
+  -o-animation-duration: 2s;
+	-o-animation-delay: 6.5s;
+  -ms-animation-duration: 2s;
+	-ms-animation-delay: 6.5s;
+  animation-duration: 2s;
+	animation-delay: 6.5s;
 }
 
 a {
