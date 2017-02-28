@@ -4,38 +4,28 @@ body {
   font-family: Quicksand, Helvetica, Arial, sans-serif;
   font-size: 36px;
   text-align: center;
-  -webkit-transition: 250ms linear;
-  -moz-transition: 250ms linear;
-  -o-transition: 250ms linear;
-  -ms-transition: 250ms linear;
-  transition: 250ms linear;
+  -webkit-transition: 500ms ease background-color;
+  -moz-transition: 500ms ease background-color;
+  -o-transition: 500ms ease background-color;
+  -ms-transition: 500ms ease background-color;
+  transition: 500ms ease background-color;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
-.upwork-bg {
+body.upwork-bg {
   background-color: #5BBC2E;
-  -webkit-transition: 250ms linear;
-  -moz-transition: 250ms linear;
-  -o-transition: 250ms linear;
-  -ms-transition: 250ms linear;
-  transition: 250ms linear;
 }
 
-.github-bg {
+body.github-bg {
   background-color: #24292E;
-  -webkit-transition: 250ms linear;
-  -moz-transition: 250ms linear;
-  -o-transition: 250ms linear;
-  -ms-transition: 250ms linear;
-  transition: 250ms linear;
 }
 
-.linkedin-bg {
+body.linkedin-bg {
   background-color: #0084BF;
-  -webkit-transition: 250ms linear;
-  -moz-transition: 250ms linear;
-  -o-transition: 250ms linear;
-  -ms-transition: 250ms linear;
-  transition: 250ms linear;
 }
 
 .content-container {
@@ -43,10 +33,9 @@ body {
   height: 250px;
   position: absolute;
   left: 50%;
-  margin-left: -300px;
   top: 50%;
-  margin-top: -125px;
-  text-align: center;
+  margin-left: -300px;
+  margin-top: 300px;
 }
 
 .first {
